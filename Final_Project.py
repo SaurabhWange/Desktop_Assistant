@@ -31,7 +31,7 @@ def wishme():
 
 
 def take_command():
-
+    """This function is used to take the commands from the user and send it to the code inside main function"""
     recogniser = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening.....")
